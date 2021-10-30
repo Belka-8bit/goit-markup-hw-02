@@ -4,11 +4,15 @@ body {
   padding: 0;
 }
 
+/* Header */
+
 .header {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 80px;
 }
 
 .nav {
@@ -31,6 +35,7 @@ body {
   text-decoration: none;
   color: #000;
   line-height: 100%;
+  margin-left: 215px;
 }
 
 .nav-list {
@@ -42,6 +47,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 100%;
+  margin: 0 auto;
 }
 
 .nav-list li a {
@@ -63,6 +69,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 100%;
+  margin: 0 auto;
 }
 
 .nav-address li a {
@@ -70,4 +77,21 @@ body {
   text-decoration: none;
   display: block;
   padding: 50px;
+}
+
+/* /Header */
+
+/* Hero */
+
+.hero {
+  background-color: #2f303a;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 900;
+  font-size: 44px;
 }
