@@ -45,6 +45,7 @@ body {
   display: flex;
   color: #212121;
   text-decoration: none;
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 100%;
@@ -121,6 +122,7 @@ body {
   align-items: center;
   justify-content: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 /* /Hero */
@@ -195,7 +197,7 @@ body {
 /* Workers */
 
 .workers-title {
-  margin-top: 94px;
+  margin-top: 188px;
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
@@ -204,4 +206,102 @@ body {
   font-size: 36px;
   line-height: 100%;
   color: #212121;
+}
+
+.workers-list li {
+  display: block;
+  text-decoration: none;
+}
+
+.workers-list {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+
+  padding-top: 50px;
+}
+
+.worker-info {
+  height: 368px;
+  width: 270px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 94px;
+}
+
+.worker-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #212121;
+}
+
+.worker-prof {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 100%;
+  color: #757575;
+}
+
+/* /Workers */
+
+/* Footer */
+
+.footer {
+  height: 252px;
+  background-color: #2f303a;
+  color: #fff;
+}
+
+.logo-footer {
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 26px;
+  text-decoration: none;
+  color: #fff;
+  line-height: 100%;
+  display: flex;
+  align-content: center;
+  padding-top: 60px;
+  padding-left: 215px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  padding-left: 215px;
+}
+
+.address li {
+  display: block;
+  text-decoration: none;
+}
+
+.address-info {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 146%;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.footer-list {
+  margin: 0;
+  padding: 0;
+}
+
+.address-list {
+  text-decoration: none;
+  color: #757575;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 146%;
 }
