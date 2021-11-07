@@ -141,6 +141,8 @@ body {
   text-align: center;
 }
 
+/* Footer */
+
 .footer {
   background-color: var(--primary-bg-color);
 }
