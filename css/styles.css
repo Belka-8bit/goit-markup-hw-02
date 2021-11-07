@@ -4,6 +4,7 @@
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --primary-white-color: #ffffff;
+  --btn-color: #f5f4f4;
 }
 
 body {
@@ -79,7 +80,9 @@ body {
   text-transform: uppercase;
 }
 
-.btn {
+/* Buttons */
+
+.hero-btn {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   font-family: "Roboto";
@@ -90,6 +93,25 @@ body {
   align-items: center;
   text-align: center;
   cursor: pointer;
+}
+
+.filter-btn {
+  background-color: var(--btn-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.filter-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 /* Specials */
@@ -139,6 +161,23 @@ body {
   font-weight: 400;
   line-height: 1.18;
   text-align: center;
+}
+
+/* Filter */
+
+.filter-title {
+  color: var(--primary-text-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.filter-text {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.87;
 }
 
 /* Footer */
