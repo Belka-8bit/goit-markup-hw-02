@@ -1,0 +1,165 @@
+:root {
+  --primary-bg-color: #2f303a;
+  --accent-color: #2196f3;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  font-family: "Roboto";
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+/* Header */
+
+.header {
+  background-color: var(--primary-white-color);
+}
+
+.logo {
+  color: var(--primary-text-color);
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.logo .style {
+  color: var(--accent-color);
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.list {
+  list-style: none;
+}
+
+.list .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.list .address {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.link:hover,
+.address:hover {
+  color: var(--accent-color);
+}
+
+.link:focus,
+.address:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.section .title {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-white-color);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.btn {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Specials */
+
+.title-hidden {
+  visibility: hidden;
+}
+
+.specials-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.specials-text {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  line-height: 1.71;
+}
+
+/* Work & Workers */
+
+.section-workers {
+  background-color: #f5f4fa;
+}
+
+.section-title {
+  color: var(--primary-text-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.worker-title {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.worker-text {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.footer {
+  background-color: var(--primary-bg-color);
+}
+
+.footer .logo {
+  color: var(--primary-white-color);
+}
+
+.address-text {
+  color: var(--primary-white-color);
+  font-weight: 400;
+  line-height: 1.71;
+  font-style: normal;
+}
+
+.footer-address {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  line-height: 1.71;
+  font-style: normal;
+  text-decoration: none;
+}
