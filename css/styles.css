@@ -96,23 +96,26 @@ body {
 .hero-btn {
   background-color: var(--accent-color);
   color: var(--tittle-text-color);
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.87;
   letter-spacing: 0.06em;
   border: 0;
+  border-radius: 4px;
   align-items: center;
   text-align: center;
   cursor: pointer;
 }
 
 .filter-btn {
-  background-color: var(--btn-color);
+  background-color: var(--secondary-section-color);
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
   border: 0;
+  border-radius: 4px;
   text-align: center;
   cursor: pointer;
 }
@@ -159,6 +162,11 @@ body {
   font-weight: 700;
   line-height: 1.16;
   text-align: center;
+}
+
+.worker-card {
+  background-color: var(--primary-background-color);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .worker-title {
@@ -228,4 +236,9 @@ body {
   line-height: 1.71;
   font-style: normal;
   text-decoration: none;
+}
+
+.footer-address:hover,
+.footer-address:focus {
+  color: var(--accent-color);
 }
