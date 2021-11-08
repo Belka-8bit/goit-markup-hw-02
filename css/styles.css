@@ -6,6 +6,7 @@
   --primary-background-color: #ffffff;
   --primary-section-color: #2f303a;
   --secondary-section-color: #f5f4fa;
+  --footer-address-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -44,6 +45,7 @@ body {
 
 .list-link {
   color: var(--primary-text-color);
+  font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -52,6 +54,7 @@ body {
 
 .list-address {
   color: var(--secondary-text-color);
+  font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -128,6 +131,7 @@ body {
 
 .specials-title {
   color: var(--primary-text-color);
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -135,6 +139,7 @@ body {
 
 .specials-text {
   color: var(--secondary-text-color);
+  font-size: 14px;
   line-height: 1.71;
 }
 
@@ -208,12 +213,14 @@ body {
 
 .address-text {
   color: var(--tittle-text-color);
+  font-size: 14px;
   line-height: 1.71;
   font-style: normal;
 }
 
 .footer-address {
-  color: var(--secondary-text-color);
+  color: var(--footer-address-color);
+  font-size: 14px;
   line-height: 1.71;
   font-style: normal;
   text-decoration: none;
